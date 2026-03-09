@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiDuZ Global | Mix Magic Tour - Soundtracks & ShowBox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold: #d4af37;
+            --deep-black: #050505;
+            --carbon: #121212;
+            --accent: #ff4500;
+            --text-gray: #a0a0a0;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--deep-black);
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 { font-family: 'Syncopate', sans-serif; text-transform: uppercase; }
+
+        /* --- GLOBAL HERO --- */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.6), var(--deep-black)), 
+                        url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=1600') center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 10%;
+        }
+
+        .hero h1 { font-size: clamp(2rem, 8vw, 5rem); color: var(--gold); line-height: 0.9; }
+        .hero p { font-size: 1.2rem; color: var(--text-gray); margin: 20px 0; max-width: 600px; letter-spacing: 1px; }
+
+        .tag-intl { border: 1px solid var(--gold); padding: 5px 15px; display: inline-block; font-size: 0.7rem; color: var(--gold); margin-bottom: 20px; }
+
+        /* --- SECTION GLOBAL REACH --- */
+        .global-clients {
+            padding: 80px 10%;
+            background: var(--carbon);
+            text-align: center;
+        }
+
+        .client-logos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 40px;
+            opacity: 0.5;
+            margin-top: 40px;
+            filter: grayscale(1);
+        }
+
+        /* --- SHOWBOX GLOBAL SESSIONS --- */
+        .showbox-section {
+            padding: 100px 10%;
+        }
+
+        .showbox-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .video-placeholder {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #222;
+            border-left: 8px solid var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .video-placeholder::after { content: "▶ SHOWBOX GLOBAL SESSION"; font-size: 0.8rem; font-family: 'Syncopate'; }
+
+        /* --- SERVICES (AUDIOVISUAL FOCUS) --- */
+        .services-intl {
+            padding: 100px 10%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card-intl {
+            border: 1px solid #333;
+            padding: 40px;
+            transition: 0.4s;
+        }
+
+        .card-intl:hover { border-color: var(--gold); background: #0a0a0a; }
+
+        .card-intl h3 { color: var(--gold); margin-bottom: 15px; font-size: 1rem; }
+
+        /* --- TECHNOLOGY & NO-AI --- */
+        .tech-focus {
+            padding: 100px 10%;
+            background: #fff;
+            color: #000;
+        }
+
+        .tech-focus h2 { margin-bottom: 20px; }
+
+        /* --- FOOTER --- */
+        .cta-intl {
+            padding: 100px 10%;
+            text-align: center;
+        }
+
+        .btn-gold {
+            background: var(--gold);
+            color: #000;
+            padding: 20px 40px;
+            text-decoration: none;
+            font-weight: 700;
+            font-family: 'Syncopate';
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        footer { padding: 50px; text-align: center; border-top: 1px solid #222; color: #444; }
+
+        @media (max-width: 768px) { .showbox-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="tag-intl">PORTO ALEGRE | GLOBAL OPERATIONS</div>
+        <h1>GLOBAL REACH.<br>HUMAN PULSE.</h1>
+        <p>Produção audiovisual de elite e design de som de exportação. Transformamos narrativas globais em experiências imersivas 100% orgânicas.</p>
+        <div>
+            <a href="#contact" class="btn-gold">START A PROJECT</a>
+        </div>
+    </section>
+
+    <section class="global-clients">
+        <h2>TRUSTED WORLDWIDE</h2>
+        <div class="client-logos">
+            <span>EUROPEAN INDIE FILMS</span>
+            <span>US TECH BRANDS</span>
+            <span>LATAM GAME STUDIOS</span>
+            <span>GLOBAL MUSIC ARTISTS</span>
+        </div>
+    </section>
+
+    <section class="showbox-section">
+        <div class="showbox-grid">
+            <div class="video-placeholder"></div>
+            <div>
+                <h2>SHOWBOX GLOBAL SESSIONS</h2>
+                <p style="margin: 20px 0; color: var(--text-gray);">Materializamos performances de alta fidelidade em qualquer coordenada geográfica. Mobilidade total com o setup Midas MR18 para capturar a essência de bandas internacionais e projetos audiovisuais de grande escala.</p>
+                <ul style="list-style: none; color: var(--gold);">
+                    <li>+ Multicam 4K Mobile Capture</li>
+                    <li>+ Audio Evolution Live Mix</li>
+                    <li>+ Global Logistics Ready</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-intl">
+        <div class="card-intl">
+            <h3>GLOBAL SOUNDTRACKS</h3>
+            <p>Composições originais para cinema e streaming internacional. Emoção humana que transcende fronteiras.</p>
+        </div>
+        <div class="card-intl">
+            <h3>GAME AUDIO DESIGN</h3>
+            <p>Sound design adaptativo e imersivo para o mercado global de games. Pronto para integração móvel e console.</p>
+        </div>
+        <div class="card-intl">
+            <h3>REMOTE MIX & MASTER</h3>
+            <p>Mixagem técnica multipista via Midas Engine para artistas em qualquer lugar do mundo. Fidelidade LUFS garantida.</p>
+        </div>
+        <div class="card-intl">
+            <h3>INTL AUDIO BRANDING</h3>
+            <p>Criação de DNA sonoro para marcas globais com proteção total contra direitos autorais gerados por IA.</p>
+        </div>
+    </section>
+
+    <section class="tech-focus">
+        <div style="max-width: 800px;">
+            <h2>HUMAN AS A LUXURY</h2>
+            <p style="font-size: 1.4rem;">Em 2026, a perfeição sintética é barata. A imperfeição humana é o novo luxo. Nossas produções carregam o selo **No-AI Content**, garantindo que cada frame e cada nota sejam fruto da alma humana e tecnologia de hardware real.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="cta-intl">
+        <h2>READY FOR THE MIX MAGIC TOUR?</h2>
+        <p>Seja em Porto Alegre ou em Berlim, a RiDuZ entrega o som do futuro.</p>
+        <a href="mailto:meediar.invest@gmail.com" class="btn-gold">CONTACT OUR STUDIO</a>
+        <p style="margin-top: 40px; color: var(--gold);">meediar.invest@gmail.com</p>
+    </section>
+
+    <footer>
+        &copy; 2026 RIDUZ | MIX MAGIC TOUR. GLOBAL AUDIOVISUAL PRODUCTION HUB. <br>
+        BORN IN PORTO ALEGRE, RS, BRAZIL.
+    </footer>
+
+</body>
+</html>
