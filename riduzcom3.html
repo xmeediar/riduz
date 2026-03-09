@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiDuZ | Global Audio Boutique - Remote Production & Soundtracks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root { --gold: #c5a059; --bg: #050505; --card: #111; --text: #e0e0e0; }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; }
+        
+        header { height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 0 10%; background: radial-gradient(circle at top right, #1a1a1a, #050505); }
+        .badge { color: var(--gold); border: 1px solid var(--gold); padding: 5px 12px; display: inline-block; font-size: 0.7rem; letter-spacing: 2px; margin-bottom: 20px; }
+        h1 { font-size: clamp(2.5rem, 8vw, 5rem); font-weight: 900; line-height: 1; margin-bottom: 20px; }
+        h1 span { color: var(--gold); }
+
+        .section { padding: 80px 10%; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { background: var(--card); padding: 40px; border-radius: 4px; transition: 0.3s; border-top: 1px solid #222; }
+        .card:hover { border-top-color: var(--gold); background: #161616; }
+        .card h3 { color: var(--gold); margin-bottom: 15px; text-transform: uppercase; font-size: 0.9rem; }
+
+        .remote-focus { background: var(--gold); color: #000; padding: 60px 10%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+        .remote-focus h2 { font-size: 2.5rem; flex: 1; min-width: 300px; }
+        .remote-focus p { flex: 1; min-width: 300px; font-weight: 600; }
+
+        .showbox-local { border: 1px solid #222; padding: 60px; margin-top: 50px; border-radius: 10px; }
+        
+        footer { padding: 40px 10%; border-top: 1px solid #222; text-align: center; font-size: 0.8rem; color: #555; }
+        .btn { background: var(--gold); color: #000; padding: 15px 35px; text-decoration: none; font-weight: 700; display: inline-block; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="badge">EST. 2026 | PORTO ALEGRE, BRAZIL</div>
+        <h1>REMOTE <span>AUDIO</span> EXCELLENCE.</h1>
+        <p>Boutique soundtrack production and remote post-production. <br>High-end Brazilian craft for global narratives.</p>
+        <a href="#contact" class="btn">LET'S COLLABORATE</a>
+    </header>
+
+    <div class="remote-focus">
+        <h2>GLOBAL DELIVERY. <br>LOCAL PASSION.</h2>
+        <p>From original scores for indie films to remote mixing for global artists. We deliver high-fidelity audio assets worldwide, powered by Midas technology and human soul.</p>
+    </div>
+
+    <section class="section">
+        <h2>SERVICES FOR THE GLOBAL MARKET</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Original Scoring</h3>
+                <p>Custom soundtracks for films, documentaries, and games. Narrative-driven music with a human touch.</p>
+            </div>
+            <div class="card">
+                <h3>Remote Mix & Master</h3>
+                <p>Send your tracks. Get a professional Midas-processed mix. Optimized for LUFS and global streaming standards.</p>
+            </div>
+            <div class="card">
+                <h3>Game Sound Design</h3>
+                <p>Immersive SFX and adaptive audio for international developers. Mobile-ready and industry-standard.</p>
+            </div>
+        </div>
+
+        <div class="showbox-local">
+            <h3>THE SHOWBOX SESSIONS (South America Destination)</h3>
+            <p>Touring South America? Visit our studio in Porto Alegre for a high-fidelity live session. 18-channel Midas capture, 4K mobile multicam, and the unique vibe of the Brazilian underground scene.</p>
+        </div>
+    </section>
+
+    <section class="section" style="background: #000;">
+        <div style="max-width: 700px;">
+            <h2 style="color: var(--gold);">THE NO-AI PROMISE</h2>
+            <p>In an era of synthetic perfection, we offer the luxury of human imperfection. Every note we deliver is performed, captured, and mixed by humans. Secure your IP with 100% human-authored content.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>RiDuZ | Mix Magic Tour</p>
+        <p>meediar.invest@gmail.com</p>
+        <p style="margin-top: 20px;">Porto Alegre, RS, Brazil - Serving the World.</p>
+    </footer>
+
+</body>
+</html>
