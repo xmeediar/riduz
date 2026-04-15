@@ -1,0 +1,271 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Profissionalizantes de Áudio com Certificado MEC | Educa Áudio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#f59e0b', // Amber 500
+                        secondary: '#1f2937', // Gray 800
+                        dark: '#111827', // Gray 900
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(17, 24, 39, 0.8), rgba(17, 24, 39, 0.9)), url('https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-dark text-white font-sans antialiased">
+
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-50 bg-dark/95 backdrop-blur-sm border-b border-gray-800">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fas fa-headphones-alt text-primary text-3xl"></i>
+                    <span class="font-bold text-2xl tracking-tight text-white">Educa <span class="text-primary">Áudio</span></span>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#cursos" class="text-gray-300 hover:text-primary transition">Cursos</a>
+                    <a href="#beneficios" class="text-gray-300 hover:text-primary transition">Vantagens</a>
+                    <a href="#sobre" class="text-gray-300 hover:text-primary transition">Sobre Nós</a>
+                </nav>
+                <div class="hidden md:flex">
+                    <a href="#matricula" class="bg-primary hover:bg-yellow-500 text-dark font-bold py-2 px-6 rounded-full transition transform hover:scale-105">
+                        Matricule-se
+                    </a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button class="text-gray-300 hover:text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+            <div class="max-w-3xl">
+                <div class="inline-block bg-primary/20 text-primary border border-primary/30 px-4 py-1 rounded-full text-sm font-semibold mb-6">
+                    <i class="fas fa-certificate mr-2"></i> Certificado Reconhecido pelo MEC
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                    Transforme sua Paixão por Som em uma <span class="text-primary">Carreira de Sucesso</span>
+                </h1>
+                <p class="text-xl text-gray-300 mb-10 max-w-2xl">
+                    Cursos completos de Mixagem, Masterização e Produção Musical. Aprenda com profissionais do mercado e obtenha sua certificação oficial.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 md:justify-start justify-center">
+                    <a href="#cursos" class="bg-primary hover:bg-yellow-500 text-dark font-bold py-4 px-8 rounded-full text-lg transition transform hover:scale-105 text-center">
+                        Ver Cursos Disponíveis
+                    </a>
+                    <a href="https://wa.me/5551900000000" target="_blank" class="bg-transparent border border-white hover:bg-white hover:text-dark font-bold py-4 px-8 rounded-full text-lg transition text-center">
+                        Falar com Consultor
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Cloud / Social Proof -->
+    <section class="py-10 bg-secondary border-y border-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-sm text-gray-400 font-semibold uppercase tracking-wider mb-6">Nossos alunos trabalham com as melhores ferramentas</p>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-50">
+                <span class="text-2xl font-bold tracking-widest">PRO TOOLS</span>
+                <span class="text-2xl font-bold tracking-widest">LOGIC PRO</span>
+                <span class="text-2xl font-bold tracking-widest">ABLETON</span>
+                <span class="text-2xl font-bold tracking-widest">STUDIO ONE</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="py-20 bg-dark">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Por que escolher a Educa Áudio?</h2>
+                <p class="text-gray-400">Estrutura completa e metodologia focada no mercado de trabalho.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-secondary p-8 rounded-2xl border border-gray-800 hover:border-primary transition duration-300">
+                    <div class="bg-dark w-14 h-14 rounded-full flex items-center justify-center mb-6 text-primary text-2xl">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Certificado MEC</h3>
+                    <p class="text-gray-400">Nossos cursos são autorizados e reconhecidos pelo Ministério da Educação. Validade em todo o território nacional.</p>
+                </div>
+                
+                <div class="bg-secondary p-8 rounded-2xl border border-gray-800 hover:border-primary transition duration-300">
+                    <div class="bg-dark w-14 h-14 rounded-full flex items-center justify-center mb-6 text-primary text-2xl">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Estúdios de Ponta</h3>
+                    <p class="text-gray-400">Aulas práticas em estúdios equipados com tecnologia padrão da indústria. Você aprende operando equipamentos reais.</p>
+                </div>
+
+                <div class="bg-secondary p-8 rounded-2xl border border-gray-800 hover:border-primary transition duration-300">
+                    <div class="bg-dark w-14 h-14 rounded-full flex items-center justify-center mb-6 text-primary text-2xl">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Professores Renomados</h3>
+                    <p class="text-gray-400">Corpo docente formado por engenheiros de áudio e produtores musicais com vasta experiência de mercado e portfólio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos -->
+    <section id="cursos" class="py-20 bg-secondary">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Nossos Cursos Profissionalizantes</h2>
+                    <p class="text-gray-400">Escolha a trilha que melhor se adapta aos seus objetivos.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Curso 1 -->
+                <div class="bg-dark rounded-2xl overflow-hidden border border-gray-800 flex flex-col">
+                    <div class="h-48 bg-gray-700 relative">
+                        <!-- Imagem Placeholder -->
+                        <img src="https://images.unsplash.com/photo-1516280440502-86927f6b2169?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Produção Musical" class="w-full h-full object-cover opacity-80">
+                        <div class="absolute top-4 right-4 bg-primary text-dark text-xs font-bold px-3 py-1 rounded-full">
+                            EAD e Presencial
+                        </div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold mb-2">Formação em Produção Musical</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">Aprenda teoria, arranjo, síntese e programação para criar músicas com padrão profissional do zero ao master.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-400 border-t border-gray-800 pt-4 mb-6">
+                            <span><i class="far fa-clock mr-1"></i> 360 horas</span>
+                            <span><i class="fas fa-tag mr-1"></i> Certificado MEC</span>
+                        </div>
+                        <button class="w-full bg-transparent border border-primary text-primary hover:bg-primary hover:text-dark font-bold py-3 rounded-xl transition">
+                            Saiba Mais
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Curso 2 -->
+                <div class="bg-dark rounded-2xl overflow-hidden border border-primary relative shadow-[0_0_15px_rgba(245,158,11,0.2)] flex flex-col">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 bg-primary text-dark text-xs font-bold px-4 py-1 rounded-b-lg z-10">
+                        MAIS PROCURADO
+                    </div>
+                    <div class="h-48 bg-gray-700 relative">
+                        <img src="https://images.unsplash.com/photo-1618060855239-0525da5069b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mixagem e Masterização" class="w-full h-full object-cover opacity-80">
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold mb-2">Técnico em Mixagem e Masterização</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">Especialize-se na finalização de áudio. Domine compressores, EQs, processamento de sinal analógico e digital.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-400 border-t border-gray-800 pt-4 mb-6">
+                            <span><i class="far fa-clock mr-1"></i> 240 horas</span>
+                            <span><i class="fas fa-tag mr-1"></i> Certificado MEC</span>
+                        </div>
+                        <button class="w-full bg-primary text-dark hover:bg-yellow-500 font-bold py-3 rounded-xl transition">
+                            Matricule-se Agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Curso 3 -->
+                <div class="bg-dark rounded-2xl overflow-hidden border border-gray-800 flex flex-col">
+                    <div class="h-48 bg-gray-700 relative">
+                        <img src="https://images.unsplash.com/photo-1520613220556-320d757d54fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Áudio para Audiovisual" class="w-full h-full object-cover opacity-80">
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-xl font-bold mb-2">Áudio para Cinema e TV (Post-Audio)</h3>
+                        <p class="text-gray-400 text-sm mb-4 flex-grow">Técnicas de captação direta, foley, sound design e mixagem espacial (5.1 e Dolby Atmos) para produções audiovisuais.</p>
+                        <div class="flex items-center justify-between text-sm text-gray-400 border-t border-gray-800 pt-4 mb-6">
+                            <span><i class="far fa-clock mr-1"></i> 180 horas</span>
+                            <span><i class="fas fa-tag mr-1"></i> Certificado MEC</span>
+                        </div>
+                        <button class="w-full bg-transparent border border-primary text-primary hover:bg-primary hover:text-dark font-bold py-3 rounded-xl transition">
+                            Saiba Mais
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark pt-16 pb-8 border-t border-gray-800 text-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-1">
+                    <div class="flex items-center gap-2 mb-4">
+                        <i class="fas fa-headphones-alt text-primary text-2xl"></i>
+                        <span class="font-bold text-xl text-white">Educa <span class="text-primary">Áudio</span></span>
+                    </div>
+                    <p class="text-gray-400 mb-4">Referência em ensino de tecnologia de áudio e produção musical no Brasil.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-primary"><i class="fab fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-primary"><i class="fab fa-youtube text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-primary"><i class="fab fa-facebook text-xl"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-xs">Cursos</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-primary transition">Produção Musical</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Mixagem e Masterização</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Áudio para Cinema</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Fundamentos do Áudio</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-xs">Institucional</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-primary transition">Sobre a Instituição</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Corpo Docente</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Estrutura</a></li>
+                        <li><a href="#" class="hover:text-primary transition">Certificação MEC</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-xs">Contato</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fab fa-whatsapp mr-2 text-primary"></i> (51) 90000-0000</li>
+                        <li><i class="far fa-envelope mr-2 text-primary"></i> contato@educaaudio.com.br</li>
+                        <li><i class="fas fa-map-marker-alt mr-2 text-primary"></i> Porto Alegre, RS</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-500">
+                <p>&copy; 2026 Educa Áudio. Todos os direitos reservados.</p>
+                <div class="mt-4 md:mt-0 space-x-4">
+                    <a href="#" class="hover:text-white transition">Políticas de Privacidade</a>
+                    <a href="#" class="hover:text-white transition">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+```
